@@ -1,11 +1,9 @@
 <?php
 include '..\db.php';
-$name=$_POST['student_name'];
-$email=$_POST['student_email'];
-$password=$_POST['student_password'];
-$class=$_POST['class'];
-
-$qry="INSERT INTO `student_data` (`slno`, `student_name`, `student_email`, `student_password`, `student_class`) VALUES ('', '$name', '$email', '$password', '$class')";
+$name=$_POST['instructor_name'];
+$email=$_POST['instructor_email'];
+$password=$_POST['password'];
+$qry="INSERT INTO `instructor_data` (`slno`, `instructor_name`, `instructor_email`, `instructor_password`) VALUES ('', '$name', '$email', '$password')";
 	if(mysqli_query($con, $qry)) {
   
 		header("location:..\index.php");
