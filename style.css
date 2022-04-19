@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}
+#signin_form{
+		width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ; 
+}
+label{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: aliceblue;
+}
+input[type=email]{
+	 border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 220px;
+    padding: 12px 20px;
+}
+input[type=password]{
+	 border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 220px;
+    padding: 12px 20px;
+}input[type=text]{
+	 border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 220px;
+    padding: 12px 20px;
+}
+table{
+	align-content: center;
+}
+select{
+	 border: 2px solid rgb(2, 0, 0);
+    border-radius: 4px;
+    width: 220px;
+    padding: 12px 20px;
+}
+input[type=submit] {
+    background-color: #053b07;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor:pointer;
+	border-radius: 12px;
+}
+textarea{
+	 width:inherit;
+}
+input[type=button] {
+    background-color:#0C28EE;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor:pointer;
+	border-radius: 12px;
+}
+h1{
+	text-align: center;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: tomato;
+}
